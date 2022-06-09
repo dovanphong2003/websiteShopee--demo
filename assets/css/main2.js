@@ -546,9 +546,9 @@ target : là tên thẻ mà click vào
 khi dùng e ở trên, nó sẽ in ra thẻ mà chúng ta click. 
 lưu ý, nên dùng e thay vì dùng thẳng biến khai báo từ var, trường hợp trên : hello
 */
-alert ('Welcome you, Bấm Nút OK Để Kết Nối ! ');
+alert ('Welcome you, Chào Mừng Mọi Người Đến Với Web của Phong! ');
 setTimeout( function() {
-    alert ('da co 1 ngươi mua');
+    alert ('bấm ok để xác minh You không phải là robot');
 }, 10000 ) ;
 var language = 'JavaScript';
 console.log(language)

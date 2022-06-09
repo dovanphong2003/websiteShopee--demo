@@ -83,10 +83,126 @@ width: 92%;
 
 /* mobile */
 @media (max-width: 740px) {
+    .main {
+        overflow: hidden;
+    }
+.header__navbar {
+    display: none;
+}
+.logo-search-buy {
+    margin-top: 0px;
+    padding-top: 6px;
+    align-items: center;
+    justify-content: space-between;
+}
+.header {
+    height: 62px;
+}
+.button__search__2 {
+display: block;
+order : 1;
+margin-left: 20px;
+}
+.header-search {
+    display: none;
+}
+.header-cart-all__element {
+    margin: 0px;
+    margin-right: 20px;
+}
+.logo__shopee-header {
+    order: 2;
+    padding-left: 10px;
+}
+.header-cart {
+    order: 3;
+}
+.click-search__header {
+    margin: 0px;
+    background-color: #fe6432;
+    padding: 0px;
+}
+.cart__quatity_product {
+    right: 22px;
+}
+.icon__search  {
+    font-size: 24px;
+}
+.logo-shopee {
+    margin: 0px;
+}
+.search-filter__content-all  {
+display: none;
+}
+.contetnt-all_box-element-element {
+    max-width: 50%;
+}
+.content-all {
+    max-width: 100%;
+}
+.content-all_box-element {
+    max-width: 100%;
+}
+.width-content-sort__box-content {
+    display: none;
+}
+.number-arrow {
+    display: none;
+}
+.sort__box-content {
+    padding: 0px;
+}
+.content-all_box-element  {
+    justify-content: space-evenly;
+}
+.customer-care-element {
+    max-width: 100%;
+    padding: 10px;
 
 }
+.customer-care  {
+flex-wrap: wrap;
+}
+.customer-care-element__2-element {
+    max-width: 50%;
+}
+.customer-care-element__2-element_responsive-mobile {
+    display: flex;
+    padding: 0px;
+}
+.list-help__care-responsive__tablet {
+    display: flex;
+    flex-wrap: wrap;
+}
+.customer-care-element__2 {
+    max-width: 50%;
+    flex: 0 0 50%;
+}
+.list-element-help__care-responsive__mobile {
+    padding: 10px;
+}
+.title-customer-care-2 {
+    margin-bottom: 30px;
+    margin-top: 40px;
+}
+.title-customer-care__2-mobile {
+    padding-left: 10px;
+}
+.box-header-bottom-footer__all-element {
+    padding-bottom: 4px;
+}
+.element-box__content--footer {
+    width: 0px;
+}
+.search-filter__content--footer {
+    padding-bottom: 10px;
+}
 
+
+
+
+}
 /* PC */
 @media (min-width: 1024px) {
-   
+
     }

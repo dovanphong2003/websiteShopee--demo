@@ -683,9 +683,7 @@ margin: 0px;
     border-radius: 5px;
     cursor: pointer;
 }
-.color-content-sort__box-content {
-   
-}
+
 .content-sort__box-content-hover:hover {
     background-color: #fb5926;
     color: #fff;
@@ -1224,4 +1222,7 @@ margin: 0 auto;
 }
 .form__loginIn--display_none {
 display: flex;
+}
+.button__search__2 {
+    display: none;
 }

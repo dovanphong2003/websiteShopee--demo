@@ -95,3 +95,6 @@ z-index: 3;
 .list__navbar__content-sort__box-content {
     z-index: 3;
 }
+.header {
+    z-index: 4;
+}

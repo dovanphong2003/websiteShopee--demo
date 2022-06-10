@@ -1323,6 +1323,12 @@ onclickInbtnReturn.onclick = function() {
 onclickOutbtnReturn.onclick = function() {
     displayNone.classList.toggle('form__loginIn--display_none')
 }
-
-
-
+var onclickUpHidden = document.querySelector('.product-selected')
+var onclickCart = document.querySelector('.header-cart-all__element')
+onclickCart.onclick = function() {
+    onclickUpHidden.classList.toggle('display-block')
+}
+var btnFooter = document.querySelector('.btn-footer')
+btnFooter.onclick = function() {
+    displayNone.classList.add('form__loginIn--display_none')
+}

@@ -1224,3 +1224,10 @@ display: flex;
 .button__search__2 {
     display: none;
 }
+.hell__hihi {
+    height: 30px;
+    width: 200px;
+    margin-bottom: 100px;
+    margin-left: 200px;
+    font-size: 14px;
+}

@@ -544,7 +544,16 @@ console.log(e.target)
 }
 target : là tên thẻ mà click vào
 khi dùng e ở trên, nó sẽ in ra thẻ mà chúng ta click. 
+trong e ở trên, có thuộc tính e.which : sẽ mã hóa thành số giúp bạn biết người dùng bấm phím nào khi người dùng ấn các phím trên bàn phím
 lưu ý, nên dùng e thay vì dùng thẳng biến khai báo từ var, trường hợp trên : hello
+---- DOM events
+--- một vài sự kiện của input, select :
+        1. change : là thực thi khi có sự thay đổi
+        2. input : gõ đến đâu thực thi đến đó ( dùng trong input )
+        3. keydown : khi gõ phím thứ 2 sẽ lấy được phím thứ nhất
+        4. keyup : gõ đến đâu lấy được đến đấy
+        5. keypress : khi bấm xong cứ giữ phím đấy thì nó sẽ liên tục nhận
+
 */
 alert ('Welcome you, Chào Mừng Mọi Người Đến Với Web của Phong! ');
 setTimeout( function() {
@@ -1331,4 +1340,17 @@ onclickCart.onclick = function() {
 var btnFooter = document.querySelector('.btn-footer')
 btnFooter.onclick = function() {
     displayNone.classList.add('form__loginIn--display_none')
+}
+// ví dụ về phần events với input,select. e.which để in ra số tương ứng cách hiểu của máy tính khi nhập phím
+var buttonn = document.querySelectorAll('input')
+buttonn[38].onkeyup = function(e) {
+console.log(e.which);
+switch(e.which) {
+    case 68: // 68 tương ứng với phím d
+        console.log('em iu đã nhập đúng')
+        break;
+        case 86: // tương ứng với phím v
+            console.log('em iu nhập tiếp đi')
+            break;
+}
 }

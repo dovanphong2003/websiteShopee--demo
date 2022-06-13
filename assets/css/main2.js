@@ -1342,7 +1342,20 @@ btnFooter.onclick = function() {
     displayNone.classList.add('form__loginIn--display_none')
 }
 // ví dụ về phần events với input,select. e.which để in ra số tương ứng cách hiểu của máy tính khi nhập phím
+// dòng 1346 - 1358 : khi nhập em yeu anh vào ô input và nhấn tìm kiếm thì nó sẽ in ra thông báo em yêu đã nhập đúng
 var buttonn = document.querySelectorAll('input')
+buttonn[38].onchange = function(e) {
+    var hihihello = e.target.value
+    var outNotification = document.querySelector('.button__search')
+outNotification.onclick = function() {
+    console.log(hihihello)
+if (hihihello == 'em yeu anh' || 'em yeu anh ' ) {
+    alert('em yêu đã nhập đúng')
+} else {
+    alert('nhập sai, yêu cầu nhập lại')
+}
+}
+}
 buttonn[38].onkeyup = function(e) {
 console.log(e.which);
 switch(e.which) {
@@ -1353,4 +1366,5 @@ switch(e.which) {
             console.log('em iu nhập tiếp đi')
             break;
 }
+
 }

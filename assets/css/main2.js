@@ -1349,7 +1349,7 @@ buttonn[38].onchange = function(e) {
     var outNotification = document.querySelector('.button__search')
 outNotification.onclick = function() {
     console.log(hihihello)
-if (hihihello == 'em yeu anh' || 'em yeu anh ' ) {
+if (hihihello == ('em yeu anh' || 'em yeu anh ' )) {
     alert('em yêu đã nhập đúng')
 } else {
     alert('nhập sai, yêu cầu nhập lại')
